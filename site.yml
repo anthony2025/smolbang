@@ -1,0 +1,13 @@
+---
+# This is the top-level playbook that defines our entire infrastructure.
+
+- hosts: all
+  user: deploy
+  become: True
+  gather_facts: True
+
+  roles:
+    - common
+    - tarsnap
+    - git
+    - monitoring  # Monitoring role should be last. See roles/monitoring/README.md
