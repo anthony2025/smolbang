@@ -1,4 +1,4 @@
-Smolbang
+The Smol-Bang
 ============
 
 A fork of [Sovereign](https://github.com/sovereign/sovereign) Ansible playbooks used to maintain our personal infrastructure.
