@@ -79,7 +79,7 @@ To run just one or more piece, use tags. I try to tag all my includes for easy i
 
 You might find that it fails at one point or another. This is probably because something needs to be done manually, usually because there’s no good way of automating it. Fortunately, all the tasks are clearly named so you should be able to find out where it stopped. I’ve tried to add comments where manual intervention is necessary.
 
-The `dependencies` tag just installs dependencies, performing no other operations. The tasks associated with the `dependencies` tag do not rely on the user-provided settings that live in `group_vars/sovereign`. Running the playbook with the `dependencies` tag is particularly convenient for working with Docker images.
+The `dependencies` tag just installs dependencies, performing no other operations. The tasks associated with the `dependencies` tag do not rely on the user-provided settings that live in `variables`. Running the playbook with the `dependencies` tag is particularly convenient for working with Docker images.
 
 ### 8. Miscellaneous Configuration
 
